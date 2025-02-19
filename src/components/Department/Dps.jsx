@@ -1,7 +1,7 @@
 import React from 'react'
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-export default function DepartmentParts({ title, desc }) {
+export default function Dps ({ title, desc }) {
   return <>
    <div className='col-lg-4 col-md-12 col-sm-12 '>
    <div className='department border text-center p-5'>
