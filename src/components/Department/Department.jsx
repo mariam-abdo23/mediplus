@@ -1,6 +1,6 @@
 import React from 'react'
 import Department from './../../images/dept-1.jpg.webp'
-import DepartmentParts from './departmentParts'
+import DepartmentParts from './DepartmentParts'
 
 export default function department() {
     return <>
