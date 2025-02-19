@@ -104,7 +104,7 @@ export default function About() {
 
       <div className="about">
         <div className="overlay">
-          <div className="container text-center text-light">
+          <div className="container text-center text-light" style={{marginTop:"150px"}} >
             <h2>Your Health is Our Priority</h2>
             <p>We can manage your dream building. A small river named Duden flows by their place.</p>
             <button className="btn btn-light rounded-pill p-3">Search Places</button>
