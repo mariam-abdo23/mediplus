@@ -6,7 +6,7 @@ import About from './components/About/about'
 import Department from './components/Department/Department'
 import Doctors from './components/Doctors/doctors'
 import Blog from './components/Blog/blog'
-import Contact from './components/Contact/contact'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Layout/Footer'
 export default function App() {
   return <>
