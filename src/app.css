@@ -1,0 +1,118 @@
+.home {
+   background-image: url('./../src/images/bg_3.jpg.webp');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   height: 100vh;
+
+
+}
+
+.welcome {
+   display: flex;
+   align-items: center;
+   height: 100%;
+}
+
+.about {
+   background-image: url("./images/bg_2.jpg.webp");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 60vh;
+   position: relative;
+
+}
+
+.overlay {
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   position: absolute;
+}
+
+.Places {
+   position: relative;
+   z-index: 1;
+   padding-top: 200px;
+}
+
+.department:hover {
+   background-color: blue;
+   color: aliceblue;
+   transition: 1S;
+}
+
+
+
+
+.overlayDoctor {
+   position: relative;
+   overflow: hidden;
+}
+
+.overlayDoctor img {
+   width: 40vh; 
+   display: block; 
+   transition: transform 0.5s ease;
+}
+
+.overlayDoctor::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 0;
+   background: rgba(157, 155, 155, 0.5);
+   transition: height 0.5s ease;
+}
+
+.overlayDoctor:hover::before {
+   height: 100%;
+}
+
+.overlayDoctor .icons {
+   background-color: aliceblue;
+   padding: 10px;
+   width: 100%;
+   position: absolute;
+   left: 50%;
+   bottom: 30px;
+   transform: translateX(50%) translateY(50%);
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   opacity: 0;
+   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.overlayDoctor .icons i {
+   color: rgb(240, 229, 229);
+   font-size: 20px;
+   background: rgba(0,0,0,0.6);
+   padding: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: transform 0.3s;
+}
+
+.overlayDoctor .icons i:hover {
+   transform: scale(1.2);
+}
+
+.overlayDoctor:hover .icons {
+   opacity: 1;
+   transform: translateX(-50%) translateY(0);
+}
+
+.footer{
+   background-image: url("./images/footer-bg.jpg.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
