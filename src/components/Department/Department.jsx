@@ -2,7 +2,7 @@ import React from 'react'
 import Department from './../../images/dept-1.jpg.webp'
 import DepartmentParts from './DepartmentParts'
 
-export default function department() {
+export default function Department() {
     return <>
         <div className='overflow-x-hidden' id='Department'>
             <div className="row">
